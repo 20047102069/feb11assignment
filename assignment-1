@@ -1,0 +1,54 @@
+sno=int(input('enter student no:'))
+sname=input('enter student name:')
+s1=int(input('s1 marks:'))
+s2=int(input('s2 marks:'))
+s3=int(input('s3 marks:'))
+s4=int(input('s4 marks:'))
+s5=int(input('s5 marks:'))
+s6=int(input('s6 marks:'))
+total=s1+s2+s3+s4+s5+s6
+avg=(total)/6
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35:
+    if avg>=91:
+        print('O-grade')
+    elif avg>=81:
+        print('A-grade')
+    elif avg>=71:
+        print('B-grade')
+    elif avg>=60:
+        print('C-grade')
+    elif avg>=50:
+        print('D-grade')
+    elif avg>=40:
+        print('pass')
+else:
+    print('fail')
+        
+        
+        
+        
+        
+        Output:1
+        enter student no:1
+        enter student name:ramya
+        s1 marks:90
+        s2 marks:80
+        s3 marks:70
+        s4 marks:90
+        s5 marks:80
+        s6 marks:90
+        A-grade
+        
+        
+        
+        Output:2
+        enter student no:2
+        enter student name:lakshmi
+        s1 marks:34
+        s2 marks:35
+        s3 marks:40
+        s4 marks:20
+        s5 marks:60
+        s6 marks:70
+        fail
+
